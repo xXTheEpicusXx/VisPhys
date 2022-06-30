@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VisualPhysics10" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">#2396F3</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="EditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="endIconTint">@color/icon_color</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="startIconTint">@color/icon_color</item>
+        <item name="android:textColorHint">@color/primary</item>
+        <item name="counterTextColor">@color/black</item>
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">4</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="theme">@style/ThemeOverlay.MaterialComponents.ActionBar</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="Toolbar2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="theme">@style/ThemeOverlay.MaterialComponents.ActionBar</item>
+        <item name="android:background">#00F000</item>
+    </style>
+
+    <style name="Theme.VisualPhysics10.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="FullScreenDialogTheme" parent="Theme.MaterialComponents.DialogWhenLarge">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorPrimaryVariant">#2396F3</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="MaterialAlert" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat">
+        <item name="trackTint">@color/primary</item>
+    </style>
+
+</resources>

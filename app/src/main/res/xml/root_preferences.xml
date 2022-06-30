@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+
+    <PreferenceCategory
+
+        app:icon="@drawable/settings"
+        app:title="@string/settings_0">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/sound"
+            app:key="sound"
+            app:title="@string/settings_1" />
+        <Preference
+            app:icon="@drawable/authors_list"
+            app:summary="@string/authors"
+            app:title="@string/settings_2"
+            app:key="authors"/>
+        <Preference
+            app:icon="@drawable/about_us"
+            app:summary="@string/about_us"
+            app:title="@string/settings_3"
+            app:key="about"/>
+        <Preference
+            app:icon="@drawable/log_out"
+            app:summary="@string/exit_profile_subtitle"
+            app:title="@string/settings_4"
+            app:key="exit"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
