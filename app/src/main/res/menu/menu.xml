@@ -2,18 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/lecture"
+            android:icon="@drawable/lectures"
+            android:iconTint="@color/color_accent"
+            android:title="@string/menu_1" />
+        <item
             android:id="@+id/task"
             android:icon="@drawable/tasks"
             android:iconTint="@color/color_accent"
             android:title="@string/menu_2" />
         <item
+            android:id="@+id/lab"
+            android:icon="@drawable/school"
+            android:title="@string/menu_6" />
+        <item
+            android:id="@+id/progress"
+            android:icon="@drawable/check_new"
+            android:title="@string/menu_5" />
+        <item
             android:id="@+id/settings"
             android:iconTintMode="multiply"
             android:icon="@drawable/settings"
             android:title="@string/menu_3" />
-        <item
-            android:id="@+id/progress"
-            android:icon="@drawable/check_24"
-            android:title="@string/menu_5" />
     </group>
 </menu>

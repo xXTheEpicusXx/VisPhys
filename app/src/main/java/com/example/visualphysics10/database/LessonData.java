@@ -17,10 +17,6 @@ public class LessonData {
     public double speed;
     @ColumnInfo(name = "name")
     public String name;
-
-    @ColumnInfo(typeAffinity = ColumnInfo.BLOB,name = "userImage")
-    public byte[] userImage;
-
     @ColumnInfo(name = "sound")
     public boolean sound;
     @ColumnInfo(name = "education")
@@ -37,7 +33,7 @@ public class LessonData {
     public double mass2;
     @ColumnInfo(name = "strength")
     public double strength;
-    @ColumnInfo(name = "angle")
+    @ColumnInfo(name ="angle")
     public double angle;
     @ColumnInfo(name = "elasticImpulse")
     public boolean elasticImpulse;
@@ -54,6 +50,8 @@ public class LessonData {
     public int hashCode() {
         return Objects.hash(id, speed, speed2, acc, radius, mass1, mass2, strength, angle, elasticImpulse);
     }
+
+
 
 
 }
