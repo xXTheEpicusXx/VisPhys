@@ -50,6 +50,7 @@
     <string name="menu_2"><font size="18">Задачи</font></string>
     <string name="menu_3"><font size="18">Настройки</font></string>
     <string name="menu_5"><font size="18">Мой прогресс</font></string>
+    <string name="menu_6"><font size="18">Лабораторные</font></string>
     <string name="menu_4"><font color='red' size="18">Выйти</font></string>
     <string name="input_speed_title">Скорость</string>
     <string name="input_radius_title">Радиус</string>

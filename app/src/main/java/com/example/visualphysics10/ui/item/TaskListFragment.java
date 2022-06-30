@@ -20,11 +20,11 @@ import com.example.visualphysics10.MainActivity;
 import com.example.visualphysics10.R;
 import com.example.visualphysics10.adapter.RecyclerViewAdapter;
 import com.example.visualphysics10.databinding.FragmentTaskListBinding;
-import com.example.visualphysics10.inform.test.FragmentTest;
-import com.example.visualphysics10.inform.test.FragmentTest2;
-import com.example.visualphysics10.inform.test.FragmentTest3;
-import com.example.visualphysics10.inform.test.FragmentTest4;
-import com.example.visualphysics10.inform.test.FragmentTest5;
+import com.example.visualphysics10.ui.inform.test.FragmentTest;
+import com.example.visualphysics10.ui.inform.test.FragmentTest2;
+import com.example.visualphysics10.ui.inform.test.FragmentTest3;
+import com.example.visualphysics10.ui.inform.test.FragmentTest4;
+import com.example.visualphysics10.ui.inform.test.FragmentTest5;
 import com.example.visualphysics10.placeholder2.PlaceHolderContent2;
 
 import java.util.Objects;

@@ -1,21 +1,16 @@
 package com.example.visualphysics10;
 
-import static android.graphics.Color.WHITE;
-import static android.graphics.Color.colorSpace;
-
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.text.style.BackgroundColorSpan;
 import android.view.LayoutInflater;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.visualphysics10.adapter.ItemFragment;
+import com.example.visualphysics10.ui.lesson.ItemFragment;
 import com.example.visualphysics10.databinding.ActivityMainBinding;
 import com.example.visualphysics10.ui.MainFlag;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
